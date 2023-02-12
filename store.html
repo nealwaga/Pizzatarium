@@ -8,23 +8,23 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pizzatarium</title>
+    <title>La Pizza Café</title>
     <link rel="icon" href="img/pizza icon.jpg" type="image/x-icon">
-
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/business-casual.min.css" rel="stylesheet">
+
 
 </head>
 
 <body>
-
     <h1 class="site-heading text-center text-white d-none d-lg-block">
         <span class="site-heading-upper text-primary mb-3">Talk of Town</span>
         <span class="site-heading-lower">Pizzatarium</span>
@@ -41,98 +41,233 @@
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="index.html">Home
-                            <span class="sr-only">(current)</span>
+                            <span class="sr-only"></span>
                         </a>
                     </li>
                     <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
                     </li>
-                    <li class="nav-item active px-lg-4">
+                    <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
                     </li>
-                    <li class="nav-item px-lg-4">
+                    <li class="nav-item active px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="store.html">Store</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <section class="page-section">
+    <section class="page-section cta">
         <div class="container">
-            <div class="product-item">
-                <div class="product-item-title d-flex">
-                    <div class="bg-faded p-5 d-flex ml-auto rounded">
-                        <h2 class="section-heading mb-0">
-                            <span class="section-heading-upper">Cooked the Italian Style, to Perfection</span>
-                            <span class="section-heading-lower">Pizza &amp; Toppings</span>
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <div class="cta-inner text-center rounded">
+                        <h2 class="section-heading mb-5">
+                            <span class="section-heading-upper">Come On In</span>
+                            <span class="section-heading-lower">We're Open</span>
                         </h2>
-                    </div>
-                </div>
-                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/toppings.jpeg" alt="">
-                <div class="product-item-description d-flex mr-auto">
-                    <div class="bg-faded p-5 rounded">
-                        <p class="mb-0">We take pride in our work, and it shows. Every time you order Pizza from us, we guarantee that it will be an experience worth having. Whether it's our world famous Chicken & Beef Pepperoni , Chicken Hawaiian, or Roast Veg & Feta,
-                            you will be coming back for more.</p>
+                        <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                            <li class="list-unstyled-item list-hours-item d-flex">
+                                Sunday
+                                <span class="ml-auto">11:30 AM to 8:00 PM</span>
+                            </li>
+                            <li class="list-unstyled-item list-hours-item d-flex">
+                                Monday
+                                <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                            </li>
+                            <li class="list-unstyled-item list-hours-item d-flex">
+                                Tuesday
+                                <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                            </li>
+                            <li class="list-unstyled-item list-hours-item d-flex">
+                                Wednesday
+                                <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                            </li>
+                            <li class="list-unstyled-item list-hours-item d-flex">
+                                Thursday
+                                <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                            </li>
+                            <li class="list-unstyled-item list-hours-item d-flex">
+                                Friday
+                                <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                            </li>
+                            <li class="list-unstyled-item list-hours-item d-flex">
+                                Saturday
+                                <span class="ml-auto">9:00 AM to 5:00 PM</span>
+                            </li>
+                        </ul>
+                        <p class="address mb-5">
+                            <em>
+                                <strong>Mama Ngina Street</strong>
+                                <br>
+                                Embu Kenya
+                            </em>
+                        </p>
+                        <p class="mb-0">
+                            <small>
+                                <em>Call Anytime</em>
+                            </small>
+                            <br> +254 716235277
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="page-section">
+    <div id="order"></div>
+    <div class="order mt-4">
         <div class="container">
-            <div class="product-item">
-                <div class="product-item-title d-flex">
-                    <div class="bg-faded p-5 d-flex mr-auto rounded">
-                        <h2 class="section-heading mb-0">
-                            <span class="section-heading-upper">Delicious Treats, Good Eats</span>
-                            <span class="section-heading-lower">Bakery &amp; Kitchen</span>
-                        </h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="order-section"></div>
+                    <h1 class="text-center pt-4"> Make an order</h1>
+                    <p>To buy more than one Pizza, Make another selection then press order now to add to the first order
+                    </p>
+                    <div class="alert alert-success mt-2" id="success">
+                        <strong>Success!</strong> your order will be delivered to your location in
+                        <span style="color: red; font-size:18px" id="place"></span> the delivery fee is ksh 200. Thank you for shopping with us.
                     </div>
-                </div>
-                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-03.jpeg" alt="">
-                <div class="product-item-description d-flex ml-auto">
-                    <div class="bg-faded p-5 rounded">
-                        <p class="mb-0">Our seasonal menu features delicious snacks, baked goods, and even full meals perfect for breakfast or lunchtime. We source our ingredients from local, oragnic farms whenever possible, alongside premium vendors for specialty goods.</p>
+                    <div class="alert alert-success" id="no-delivery">
+                        <strong>Success!</strong> We will be waiting for you to pick your pizza. Thank you for shopping with us.
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <card-title>
+                                    <h3 class="pt-4 pl-5">Let us know what you want</h3>
+                                </card-title>
+                                <div class="card-body">
+                                    <div id="pizza">
+                                        <img class="pl-5" src="./assets/pizza1.jpeg" alt="" />
+                                    </div>
+                                    <form id="myform">
+                                        <div class="form-group">
+                                            <label for="pizza-size">Pizza Size</label>
+                                            <select class="form-control" id="pizza-size">
+                                                <option value="small">Small -- ksh 600</option>
+                                                <option value="medium">Medium -- ksh 800</option>
+                                                <option value="large"> Large -- ksh 1200</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pizza-crust">Which crust do you want</label>
+                                            <select class="form-control" id="pizza-crust">
+                                                <option value="crispy">Crispy -- ksh 300</option>
+                                                <option value="stuffed">Stuffed -- ksh 200</option>
+                                                <option value="gluten-free">
+                                                    Gluten-free -- ksh 100</option>
+                                            </select>
+                                        </div>
+                                        <p>Toppings</p>
+                                        <div class="toppings">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="pepperoni" />
+                                                <label class="form-check-label" for="inlineCheckbox1">Pepperoni ksh.
+                                                    100</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="veges" />
+                                                <label class="form-check-label" for="inlineCheckbox2">Veges ksh.
+                                                    50</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="bacon" />
+                                                <label class="form-check-label" for="inlineCheckbox2">Bacon ksh
+                                                    75</label>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn-success btn mt-3" id="orderbtn">
+                                            Order now
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mt-1">
+                                <div class="card-title d-inline-flex">
+                                    <h3 class="p-4">View items in cart</h3>
+                                    <i class="p-4 fa fa-shopping-cart total"><button class="btn-success btn ml-2"
+                                            value="0" id="quantity">
+                                            0
+                                        </button></i>
+                                </div>
+                                <div class="card-body">
+                                    <table id="table">
+                                        <tr>
+                                            <td>Size</td>
+                                            <td>Crust</td>
+                                            <td>Toppings</td>
+                                            <td>Total Price</td>
+                                        </tr>
+                                    </table>
+
+                                    <div id="cart">
+                                        <img id="cart" src="img/shopping cart.png" alt="" />
+                                        <p class="text-center pt-4">
+                                            You do not have any item in the cart
+                                        </p>
+                                    </div>
+
+                                    <div id="items"></div>
+                                    <a href="#order-section">
+                                        <div class="checkout">
+                                            <button class="btn-success btn m-4" data-toggle="modal" data-target="#exampleModalCenter" id="gettotal">
+                                                Checkout
+                                            </button>
+                                        </div>
+                                    </a>
+                                    <!-- </a> -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="page-section">
-        <div class="container">
-            <div class="product-item">
-                <div class="product-item-title d-flex">
-                    <div class="bg-faded p-5 d-flex ml-auto rounded">
-                        <h2 class="section-heading mb-0">
-                            <span class="section-heading-upper">Offered at the Shop</span>
-                            <span class="section-heading-lower">Soft and Hard Drinks</span>
-                        </h2>
-                    </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLongTitle">
+                        Confirm the price
+                    </h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/cocktail.png" alt="">
-                <div class="product-item-description d-flex mr-auto">
-                    <div class="bg-faded p-5 rounded">
-                        <p class="mb-0"> We also offer Drinks at our shop to complement the Pizza. Its challenging for us to deliver unpackaged drinks such as cocktails, therefore we encourage our customers to visit our shop
-                        </p> to be able to get the full experience.
-                    </div>
+                <div class="modal-body">
+                    <p>
+                        Amount you are to pay for your order is ksh
+                        <span id="money" style="color: red"></span>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" id="myModel" data-dismiss="modal">
+                        Confirm checkout
+                    </button>
+
                 </div>
             </div>
         </div>
-    </section>
+    </div><br><br>
 
     <footer class="footer text-faded text-center py-5">
         <div class="container">
-            <p class="m-0 small">Copyright &copy; Pizzatarium 2023</p>
+            <p class="m-0 small">Copyright &copy; La Pizza Café 2020</p>
         </div>
     </footer>
-
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <script src="js/script.js"></script>
 </body>
+
+
+<script>
+    $('.list-hours li').eq(new Date().getDay()).addClass('today');
+</script>
 
 </html>
